@@ -9,9 +9,12 @@
     "keywords"     : ["eslint", "eslintplugin", "eslint-plugin"],
     "main"         : "lib/index.js",
     "peerDependencies": {
-        "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+        "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     },
     "engines": {
         "node": ">=6"
+    },
+    "dependencies": {
+        "eslint-rule-composer": "^0.3.0"
     }
 }
