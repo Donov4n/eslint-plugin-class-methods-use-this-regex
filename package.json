@@ -1,13 +1,19 @@
 {
-    "name"         : "eslint-plugin-class-methods-use-this-regex",
-    "version"      : "0.1.3",
-    "description"  : "An enhanced version of the ESLint class-methods-use-this rule with RegExp exceptMethods option",
-    "license"      : "MIT",
-    "repository"   : "Donov4n/eslint-plugin-class-methods-use-this-regex",
-    "author"       : "Donovan Lambert <d.lambert@cirize.com>",
-    "contributors" : ["Mitya Teryaew <mitya.teryaew@gmail.com>"],
-    "keywords"     : ["eslint", "eslintplugin", "eslint-plugin"],
-    "main"         : "lib/index.js",
+    "name": "eslint-plugin-class-methods-use-this-regex",
+    "version": "0.1.3",
+    "description": "An enhanced version of the ESLint class-methods-use-this rule with RegExp exceptMethods option",
+    "main": "lib/index.js",
+    "license": "MIT",
+    "repository": "Donov4n/eslint-plugin-class-methods-use-this-regex",
+    "author": "Donovan Lambert <donovan@pulsanova.com>",
+    "contributors": [
+        "Mitya Teryaew <mitya.teryaew@gmail.com>"
+    ],
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin"
+    ],
     "peerDependencies": {
         "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     },

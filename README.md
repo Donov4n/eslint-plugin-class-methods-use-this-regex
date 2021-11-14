@@ -17,13 +17,12 @@ configure the rule under the rules section. Don't forget to disable the core rul
 
 ```json
 {
-    "plugins": [
-        "class-methods-use-this-regex"
-    ],
+    "plugins": ["class-methods-use-this-regex"],
+
     "rules": {
-        "class-methods-use-this": 0,
-        "class-methods-use-this-regex/class-methods-use-this": [2, {
-            "exceptMethods": ["render"]
+        "class-methods-use-this": ["off"],
+        "class-methods-use-this-regex/class-methods-use-this": ["error", {
+            "exceptMethods": ["^render.*$"]
         }]
     }
 }
