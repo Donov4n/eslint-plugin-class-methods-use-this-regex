@@ -4,7 +4,10 @@
     "description": "An enhanced version of the ESLint class-methods-use-this rule with RegExp exceptMethods option",
     "main": "lib/index.js",
     "license": "MIT",
-    "repository": "Donov4n/eslint-plugin-class-methods-use-this-regex",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Donov4n/eslint-plugin-class-methods-use-this-regex.git"
+    },
     "author": "Donovan Lambert <donovan@pulsanova.com>",
     "contributors": [
         "Mitya Teryaew <mitya.teryaew@gmail.com>"
